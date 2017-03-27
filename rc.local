@@ -1,1 +1,2 @@
+# user root run wetty to allow input user/pass. If running by a user, it will display the user name (not secure)
 wetty -p 3000 >> /var/log/wetty.log 2>&1 &
