@@ -1,3 +1,1 @@
-# enable wetty and forward 443 to 8000
-iptables -A PREROUTING -t nat -i eth0 -p tcp --dport 443 -j REDIRECT --to-port 8000
-su - wetty -c "node ~/app.js --sslkey key.pem --sslcert cert.pem -p 8000 --sshhost home.yangdeal.com" &
+su - ydeal -c "wetty -p 3000" >> /var/log/wetty.log 2>&1 &
