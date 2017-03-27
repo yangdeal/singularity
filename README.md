@@ -1,6 +1,5 @@
 # singularity
 
-- create wetty user
-- install wetty to wetty user
-- listen wetty on port 8000, https
-- modify /etc/rc.d/rc.local for port forwarding and start wetty at start
+- npm install wetty -g
+- chmod 755 /etc/rc.local to enable it run at boot up
+- modify /etc/rc.local as example
