@@ -1,1 +1,1 @@
-su - ydeal -c "wetty -p 3000" >> /var/log/wetty.log 2>&1 &
+wetty -p 3000 >> /var/log/wetty.log 2>&1 &
